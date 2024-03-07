@@ -20,7 +20,7 @@
 
 
 
-![2222](https://github.com/Kro0oz/drupal-7-elfinder/assets/72355033/844ecaa9-65a9-4134-adb8-e1e71d6f6c59)
+
 
 
 
